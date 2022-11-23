@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
+import Person from '../components/Person'
+import Persons from '../components/Persons'
 
 export default function Home() {
   return (
@@ -27,12 +29,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <h1 style={{color: "green"}}>My Bank App</h1>
         <p>Welcome to your future security</p>
-      </main>
+      </main> */}
 
-      <Main />
+      {/* <Main /> */}
+
+      <Persons />
 
       <footer className={styles.footer}>
         
