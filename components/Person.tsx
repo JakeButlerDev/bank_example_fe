@@ -9,7 +9,7 @@ export interface PersonProps {     // NOT a JS object
 const mockPerson: PersonProps = {
     name: "Satan",
     age: 12329359,
-    gender: "Female"
+    gender: "Female",
 }
 
 const Person: FC<{person: PersonProps}> = (props) => {

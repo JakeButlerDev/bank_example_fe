@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Bank from '../components/Bank'
+import Banks from '../components/Banks'
 import Main from '../components/Main'
 import Person from '../components/Person'
 import Persons from '../components/Persons'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -37,6 +39,8 @@ export default function Home() {
       {/* <Main /> */}
 
       <Persons />
+
+      <Banks />
 
       <footer className={styles.footer}>
         
